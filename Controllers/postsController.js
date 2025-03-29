@@ -1,0 +1,1 @@
+//Funciones para las publicaciones del foro (GET, POST, UPDATE, DELETE, ETC.)

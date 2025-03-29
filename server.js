@@ -6,6 +6,8 @@ const authRouter = require('./Routes/auth');
 const { checkAuth } = require('./Middlewares/auth');
 const app = express();
 
+app.use(express.json());
+
 app.use(session ({
     secret: 'aurorasecret',
     resave: false,
